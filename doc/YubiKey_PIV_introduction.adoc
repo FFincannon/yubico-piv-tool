@@ -53,6 +53,7 @@ The PIN and PUK should be changed as well.
   $ yubico-piv-tool -achange-puk -P12345678 -N${puk}
 
 === Other useful commands
+
 To generate a new private key:
 
   $ yubico-piv-tool -k${key} -agenerate -s9c
